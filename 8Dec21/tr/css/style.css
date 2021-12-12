@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.city {
+  background-color: blanchedalmond;
+  padding: 30px;
+  color: rgb(107, 31, 179);
+}
+.main {
+  color:rgb(31, 179, 105);
+}
+#list {
+  background-color: blue;
+  margin: 0;
+}
+.subtitle {
+  color: red;
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
