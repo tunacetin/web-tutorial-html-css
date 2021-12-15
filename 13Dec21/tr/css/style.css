@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 144px;
+}
+
+.header-top {
+  background-color: #002e5d;
+  height: 92px;
+}
+
+.header-top span {
+  display: inline-block;
+}
+
+.logo {
+  width: 115px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.description {
+  width: 72%;
+  margin-left: 24px;
+}
+
+.description a {
+  width: 100%;
+  color: whitesmoke;
+}
+
+.header-bottom {
+  background-color: white;
+  height: 52px;
+}
+
+main {
+  height: 800px;
+  background-color: #c4e3f0;
+}
