@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid orange;
+    height: 700px;
+}
+
+.example {
+    width: 250px;
+    height: 250px;
+}
+
+#example1 {
+    background-color: red;
+    /* height: 300px; */
+}
+
+#example2 {
+    background-color: green;
+    /* height: 400px; */
+}
+#example3 {
+    background-color: blue;
+    /* height: 150px; */
+}
+#example4 {
+    background-color: pink;
+}
+#example5{
+    background-color: yellow;
+}
+#example6{
+    background-color: black;
+}
+#example7{
+background-color: brown;
+}
