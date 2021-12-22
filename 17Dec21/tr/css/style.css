@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 144px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.header-top {
+  background-color: #002e5d;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top span {
+  display: inline-block;
+}
+.header-top input{
+  height: 30px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 115px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 30px;
+  border-right: 3px solid lightskyblue;
+}
+
+.description {
+  /* width: 72%; */
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  flex: 1;
+}
+
+.description p {
+  width: 100%;
+  color: whitesmoke;
+  font-family: 'Corinthia', cursive;
+}
+
+.search {
+  padding: 0 12px;
+}
+
+.header-bottom {
+  background-color: white;
+  height: 52px;
+}
+
+.header-bottom ul, .header-bottom li {
+  display: flex;
+}
+
+.header-bottom ul {
+  margin: 0;
+  margin-left: 145px;
+  padding: 0;
+  height: 100%;
+}
+
+.header-bottom li {
+  height: 100%;
+  padding-left: 22px;
+  padding-right: 22px;
+  align-items: center;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.header-bottom li.active,
+.header-bottom li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid rgb(0, 46, 93);
+  cursor: pointer;
+}
+
+main {
+  height: 800px;
+  background-color: #c4e3f0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #002e5d;
+  letter-spacing: 2px;
+  margin-top: 36px;
+}
+
+.hero p {
+  font-size: 26px;
+  line-height: 39px;
+  max-width: 50%;
+  text-align: center;
+  color: #002e5d;
+}
