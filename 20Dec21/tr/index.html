@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20Dec21</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      transition: transform 3s ease-in-out;
+      animation: mymove 5s infinite;
+      animation-delay: 2s;
+    }
+
+    div:hover {
+      transform: rotate(360deg);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      border: 2px solid blue;
+    }
+
+    h1,
+    p {
+      margin: 0;
+      border: 1px solid red;
+    }
+
+    h1 {
+      position: absolute;
+      left: 0;
+      top: 50px;
+      background: brown;
+    }
+
+    /* p {
+      position: fixed;
+      left: 0;
+      top: 20px;
+      background: green;
+    } */
+
+    @keyframes mymove {
+      0% {
+        
+      }
+      from {
+        width: 100px;
+      }
+
+      to {
+        width: 600px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>The animation-delay Property</h1>
+
+  <!-- <p>Start the animation after 2 seconds:</p> -->
+  <div></div>  
+
+</body>
+
+</html>
