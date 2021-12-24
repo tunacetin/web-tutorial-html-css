@@ -4,10 +4,10 @@ You may learn easily how to build a website from scratch. This course shows how 
 
 We will talk about
 
-* What is HTML?
-* What is CSS?
-* HTML Elements
-* HTML Attributes
+1 What is HTML?
+2 What is CSS?
+3 HTML Elements
+4 HTML Attributes
 * Web Page Stracture
 * How to Write CSS
 * CSS Rules
