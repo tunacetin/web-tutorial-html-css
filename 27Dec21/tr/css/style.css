@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  height: 115px;
+  width: 100% ;
+  border-bottom: 1px solid #8080808c;
+  box-shadow: 0 2px 15px 10px #80808033;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid black;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  margin: 0 16px;
+  padding: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 16px;
+  margin-right: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid black;
+}
+
+.header-icons a { 
+  padding: 16px;
+}
+.header-icons a + a {
+  margin-left: 16px;
+}
+.header-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+}
+
+section>div{
+  max-width: 1440px;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  flex-direction: row;
+  height: 500px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  justify-content: center;
+}
+
+.hero-left h1 {
+  font-size: 32px;
+}
+
+.hero-left span {
+  margin: 20px 0;
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}
+
+.hero-left p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.hero-right {
+  flex: 0.6;
+  position: relative;
+}
+
+.hero-right .hero-background {
+  height: 500px;
+}
+
+.hero-right .hero-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.content {
+  background-color: #f9f9f9;
+}
+
+.content>div {
+  flex-direction: row;
+  padding: 80px 0;
+}

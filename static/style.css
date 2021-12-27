@@ -40,7 +40,12 @@ aside ul li {
   color: white;
 }
 
-iframe {
+article {
   flex: 3;
   min-height: 100vh;
+}
+
+article iframe {
+  width: 100%;
+  height: 100%;
 }
