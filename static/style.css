@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  flex: 1;
+  background-color: black;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+aside h4, aside button {
+  padding: 1.25rem;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+aside button {
+  flex: 1;
+  width: 100%;
+  background-color: black;
+  border: none; 
+  border-top: 1px solid rgb(51, 51, 51);
+}
+aside button:hover {
+  background-color: rgb(51, 51, 51);
+}
+aside button:active {
+  background-color: rgb(124, 124, 124);
+}
+aside ul li {
+  list-style-type: none;
+  color: white;
+}
+
+iframe {
+  flex: 3;
+  min-height: 100vh;
+}
