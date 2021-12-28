@@ -8,8 +8,17 @@
   <title>Courses - Kurslar</title>
 </head>
 <body>
-  <aside>
-    <h4>Days of Courses</h4>
+  <aside id="menu">
+    <div class="header">
+      <a href="index.html">
+        <img src="static/left-white.png" alt="back icon white arrow image">
+      </a>
+      <h4>Days of Courses</h4>
+      <button onclick="toggleMenu()">
+        <img id="menuIcon" src="static/menu-white.png" alt="back icon white arrow image">
+        <img id="closeIcon" src="static/right-white.png" alt="back icon white arrow image">
+      </button>
+    </div>
     <ul>
       <button onclick="setContent('29Nov21/index.html')">
         <li>29 November</li>
@@ -94,6 +103,14 @@
         </button>
         <button onclick="setContent('27Dec21/en/index.html')">
           <li>27 December - EN</li>
+        </button>
+      </div>
+      <div class="buttonContainer">
+        <button onclick="setContent('29Dec21/tr/index.html')">
+          <li>29 December - TR</li>
+        </button>
+        <button onclick="setContent('29Dec21/en/index.html')">
+          <li>29 December - EN</li>
         </button>
       </div>
     </ul>
