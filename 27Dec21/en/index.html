@@ -4,36 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>24 December 2021</title>
+  <title>27 December 2021</title>
 </head>
 <body>
-  <code>
-    x = 5;<br>
-    y = 6;<br>
-    z = x + y;
-  </code>
-
-<pre>
-x = 5;
-y = 6;
-z = x + y;
-</pre>
-
-  <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
-
-  <p>Message from my computer:</p>
-  <p><samp>File not found.<br>Press F1 to continue</samp></p>
-  <pre>
-    <code>
-    x = 5;
-    y = 6;
-    z = x + y;
-    </code>
-  </pre>
-  <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world. It is the seat of the Japanese government and the Imperial Palace, and the home of the Japanese Imperial Family.</p>
-  <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
-    and the most populous metropolitan area in the world.
-    It is the seat of the Japanese government and the Imperial Palace,
-    and the home of the Japanese Imperial Family.</p>
+  <form style="margin-bottom: 200px;">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    </fieldset>
+    <fieldset>
+      <legend>Description:</legend>
+      <textarea name="description" style="width: 100%; height: 100px; resize: none;"></textarea>
+    </fieldset>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit" value="Submit"><br />
+    <input type="color" name="color" id="color"><br>
+    <input type="image" src="tree.jpg" alt="tree image"><br>
+    <input type="range" name="range"><br>
+    <input type="week" name="week"><br>
+    <input type="number" id="points" name="points" step="0.01" min="0" max="20" autofocus>
+  </form>
 </body>
 </html>
