@@ -8,8 +8,8 @@
   <title>Courses - Kurslar</title>
 </head>
 <body>
-  <aside id="menu">
-    <div class="header">
+  <aside id="menu" onscroll="fixHeader()">
+    <div id="menuHeader" class="header">
       <a href="index.html">
         <img src="./static/left-white.png" alt="back icon white arrow image">
       </a>
@@ -39,7 +39,7 @@
         </button>
         <button onclick="setContent('8Dec21/en/index.html')">
           <li>8 December - EN</li>
-        </button>   
+        </button>
       </div>
       <div class="buttonContainer">
         <button onclick="setContent('10Dec21/tr/index.html')">
@@ -47,15 +47,15 @@
         </button>
         <button onclick="setContent('10Dec21/en/index.html')">
           <li>10 December - EN</li>
-        </button>          
-      </div> 
+        </button>
+      </div>
       <div class="buttonContainer">
         <button onclick="setContent('13Dec21/tr/index.html')">
           <li>13 December - TR</li>
         </button>
         <button onclick="setContent('13Dec21/en/index.html')">
           <li>13 December - EN</li>
-        </button>       
+        </button>
       </div> 
       <div class="buttonContainer">
         <button onclick="setContent('15Dec21/tr/index.html')">
@@ -63,7 +63,7 @@
         </button>
         <button onclick="setContent('15Dec21/en/index.html')">
           <li>15 December - EN</li>
-        </button>        
+        </button> 
       </div> 
       <div class="buttonContainer">
         <button onclick="setContent('17Dec21/tr/index.html')">
@@ -71,7 +71,7 @@
         </button>
         <button onclick="setContent('17Dec21/en/index.html')">
           <li>17 December - EN</li>
-        </button>         
+        </button>  
       </div> 
       <div class="buttonContainer">
         <button onclick="setContent('20Dec21/tr/index.html')">

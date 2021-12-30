@@ -6,6 +6,11 @@ const menu = document.getElementById('menu');
 const menuIcon = document.getElementById('menuIcon');
 const closeIcon = document.getElementById('closeIcon');
 
+function fixHeader() {
+  console.log('hoi');
+  const menuHeader = document.getElementById('menuHeader');
+}
+
 function setContent(content) {
   iframe.setAttribute('src', baseUrl + content);
 }
