@@ -92,6 +92,11 @@ main div {
 
 .hero-left h1 {
   font-size: 32px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
 }
 
 .hero-left span {

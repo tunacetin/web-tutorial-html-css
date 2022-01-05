@@ -1,0 +1,88 @@
+* {
+  margin: 4px;
+}
+
+body {
+  background-color: lightblue;
+  color: white;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+h1, h2, h3, h4, h5, h6, .class, #id {
+  text-align: center;
+  color: black; /*Set text color to black*/
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 8px; 
+}
+
+/* h5 {
+  font-size: 50px;
+} */
+
+#para1 {
+  text-align: right;
+  color: red;
+}
+
+#para2 {
+  text-align: right;
+  color: black;
+}
+
+#para3 {
+  border: 1px solid blue;
+  background-color: brown;
+  text-align: left;
+}
+
+p.center {
+  text-align: center;
+  color: red;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.opacity {
+  position: relative;
+  height: 400px;
+  /* background-color: rgba(23, 23, 23, 0.075); */
+}
+
+.bg-black {
+  height: 800px;
+  width: 96vw;
+  z-index: 1;
+  background-color: rgb(23, 23, 23);
+  /* opacity: 0.1; */
+}
+
+.absolute {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.absolute img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-success {
+  background-color: aquamarine !important;
+  border: 1px solid lightblue;
+}
