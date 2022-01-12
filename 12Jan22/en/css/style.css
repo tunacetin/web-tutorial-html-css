@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::marker {
+  color: red;
+  font-size: 23px;
+}
+
+::selection {
+  color: rgb(78, 35, 35);
+  background: rgb(0, 255, 115);
+}
+
+a:link {color: red;}
+a:visited {color: green;}
+a:hover {color: blue;}
+a:active {color: yellow;}
+
+.hide {
+  display: none;
+}
+.tooltip {
+  height: 100px;
+  margin-bottom: 30px;
+}
+.tooltip:hover {
+  background-color: rgb(143, 102, 182);
+}
+.tooltip:hover + .hide{
+  display: block;
+}
+
+p:nth-child(2) {
+  background: red;
+}
+p:last-child {
+  color: green;
+}
+p:first-of-type {
+  background: blue;
+}
+
+.small-caps::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+#combine::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+#combine::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+h4::before {
+  content: url(../image/smiley-face.png);
+}
+
+.opacity-section {
+  margin: 50px 0;
+}
+
+.opacity-section img {
+  width: 29%;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.opacity-section img:hover {
+  opacity: 1;
+}
+
+.opacity-section img + img {
+  margin-left: 5%;
+}
