@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.translate {
+  border: 2px solid red;
+  margin: 0 auto;
+  padding: 0;
+  width: 110%;
+  transform:translate(250px,-100px);
+  /* transform:skew(-75deg);
+  transform:rotate(-3deg); */
+  color: blue;
+}
+
+
+a:visited {
+  color: orange;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
