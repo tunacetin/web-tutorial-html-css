@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.float img {
+  float: left;
+}
+
+span {
+font-size: 50px;
+color: red;
+float: right;
+margin-right: 10px;
+}
+
+section {
+  overflow: auto;
+}
+
+section ~ section {
+  margin-top: 40px;
+  background-color: blue;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.end {
+  text-align: end;
+  font-size: 28px;
+} 
+
+.image-container {
+  width: 100%;
+  background-color: aqua;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  height:100px;
+  width: 150px;
+}
+
+.image-container .center {
+  margin: 30px auto 0;
+  background-color: chartreuse;
+  width: 40%;
+  height: 150px;
+}
