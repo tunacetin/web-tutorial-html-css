@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box !important;
+}
+.red_background {
+  background-color: red !important;
+}
