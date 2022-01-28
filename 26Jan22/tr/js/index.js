@@ -1,6 +1,5 @@
 const demo = document.getElementById('demo');
 
-
 const r1 = 11
 const r2 = 11
 
