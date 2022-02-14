@@ -19,6 +19,14 @@ We will talk about
 #### USEFUL LINKS
 
 * [W3Schools]('https://www.w3schools.com')
+* [Stack Overflow]('https://stackoverflow.com')
+* [HTML Living Standard]('https://html.spec.whatwg.org')
+* [Git Documentation]('https://git-scm.com/docs')
+* [Tutorialspoint Tutorials]('https://www.tutorialspoint.com/index.htm')
 * [CSS Tricks]('https://css-tricks.com')
 * [Boostrap]('https://getbootstrap.com')
 * [TailwindCss]('https://tailwindcss.com')
+* [Unsplash]('https://unsplash.com')
+* [Pexels]('https://www.pexels.com')
+* [Coolors]('https://coolors.co')
+* [TypeScript]('https://www.typescriptlang.org')
